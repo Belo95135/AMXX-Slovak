@@ -1,0 +1,691 @@
+# http://www.namol.wz.sk/upload/a/SLOVAK.txt
+# AmxModX 1.8.2 - Slovak Translation [Last update: 30.10.2016 09:16]
+# Opravený slovenský preklad
+# By: Belo95135 (K@T4pULT)
+
+#admin.txt
+[sk]
+LOADED_ADMIN = Zo suboru bol nacitany 1 admin
+LOADED_ADMINS = Zo suboru bolo nacitanych %d adminov
+SQL_CANT_CON = SQL chyba: Nemozno sa pripojit: '%s'
+SQL_CANT_LOAD_ADMINS = SQL chyba: Nemozno nacitat adminov: '%s'
+NO_ADMINS = Nenasiel za ziaden admin.
+SQL_LOADED_ADMIN = Z databazy bol nacitany 1 admin
+SQL_LOADED_ADMINS = Z databazy bolo nacitanych %d adminov
+INV_PAS = Nespravne heslo!
+PAS_ACC = Heslo bolo akceptovane
+PRIV_SET = Opravnenia pridelene
+NO_ENTRY = Nemas ziadne opravnenie pre vstup do servera...
+
+
+#admincmd.txt
+[sk]
+ADMIN_KICK_1 = ADMIN: vyhodil %s
+ADMIN_KICK_2 = ADMIN %s: vyhodil %s
+IP_REMOVED = IP "%s" bola odstranena zo zoznamu
+AUTHID_REMOVED = Authid "%s" bol odstraneny zo zoznamu
+ADMIN_UNBAN_1 = ADMIN: unban %s
+ADMIN_UNBAN_2 = ADMIN %s: unban %s
+ADMIN_ADDBAN_1 = ADMIN: ban %s
+ADMIN_ADDBAN_2 = ADMIN %s: ban %s
+BANNED = zabanovany
+REASON = dovod
+FOR_MIN = na %s min
+PERM = permanentne
+CLIENT_BANNED = Klient "%s" bol zabanovany
+ADMIN_SLAY_1 = ADMIN: zabil %s
+ADMIN_SLAY_2 = ADMIN %s: zabil %s
+CLIENT_SLAYED = Klient "%s" bol zabity
+ADMIN_SLAP_1 = ADMIN: prefackal %s o sile %d dmg
+ADMIN_SLAP_2 = ADMIN %s: prefackal %s o sile %d dmg
+CLIENT_SLAPED = Klient "%s" dostal facku o sile %d dmg
+MAP_NOT_FOUND = Nazov mapy je nespravny alebo dana mapa neexistuje
+ADMIN_MAP_1 = ADMIN: meni mapu na %s
+ADMIN_MAP_2 = ADMIN %s: meni mapu na %s
+NO_MORE_CVARS = Nemozno pridat viacero cvarov pre pristup rcon!
+UNKNOWN_CVAR = Neznamy cvar: %s
+CVAR_NO_ACC = Nemas pristup k tomuto cvaru
+CVAR_IS = Cvar "%s" je "%s"
+PROTECTED = CHRANENY
+SET_CVAR_TO = %s nastavil cvar %s na "%s"
+CVAR_CHANGED = Cvar "%s" bol zmeneny na "%s"
+LOADED_PLUGINS = Aktualne nacitane pluginy
+NAME = nazov
+VERSION = verzia
+AUTHOR = autor
+FILE = subor
+STATUS = stav
+PLUGINS_RUN = %d pluginov, z toho %d spustenych
+LOADED_MODULES = Aktualne nacitane moduly
+NUM_MODULES = %d modulov
+FILE_NOT_FOUND = Subor "%s" sa nenasiel
+ADMIN_CONF_1 = ADMIN: spustil config %s
+ADMIN_CONF_2 = ADMIN %s: spustil config %s
+PAUSED = pozastaveny
+UNPAUSED = znova spusteny
+UNABLE_PAUSE = Server nemoze pozastavit hru. Su potrebni skutocni hraci na serveri.
+SERVER_PROC = Server pokracuje %s
+PAUSING = pozastavovanie
+UNPAUSING = opetovne spustanie
+PAUSE = pozastavit
+UNPAUSE = znova spustit
+COM_SENT_SERVER = Riadok "%s" bol odoslany do serverovej konzoli
+CLIENTS_ON_SERVER = Klienti na serveri
+IMMU = imunita
+RESERV = rezervacia
+ACCESS = pristup
+TOTAL_NUM = Celkovo %d
+SKIP_MATCH = Preskocenie "%s" (zodpoveda "%s")
+SKIP_IMM = Preskocenie "%s" (imunita)
+KICK_PL = Vyhadzovanie "%s"
+YOU_DROPPED = Bol si odpojeny pretoze admin povolil iba specificku skupinu klientov
+KICKED_CLIENTS = Odpojenych klientov: %d
+ADMIN_LEAVE_1 = ADMIN: opustil %s %s %s %s
+ADMIN_LEAVE_2 = ADMIN %s: opustil %s %s %s %s
+ADMIN_NICK_1 = ADMIN: zmenil nick z %s na "%s"
+ADMIN_NICK_2 = ADMIN %s: zmenil nick z %s na "%s"
+CHANGED_NICK = Nick zmeneny z %s na "%s"
+
+
+#adminhelp.txt
+[sk]
+HELP_COMS = AMX Mod X Pomocnik: Prikazy
+HELP_ENTRIES = Polozky %d - %d z %d
+HELP_USE_MORE = Napis 'amx_help %d' pre dalsiu stranu
+HELP_USE_BEGIN = Napis 'amx_help 1' pre navrat na zaciatok
+TYPE_HELP = Napis 'amx_help' do konzoly pre vypis zoznamu prikazov
+TIME_INFO_1 = Zostava este: %d:%02d min. Dalsia mapa: %s
+TIME_INFO_2 = Casovy limit nie je stanoveny. Dalsia mapa: %s
+
+
+#adminchat.txt
+[sk]
+COL_WHITE = biela
+COL_RED = cervena
+COL_GREEN = zelena
+COL_BLUE = modra
+COL_YELLOW = zlta
+COL_MAGENTA = fialova
+COL_CYAN = modrozelena
+COL_ORANGE = orandzova
+COL_OCEAN = modra
+COL_MAROON = gastanova
+PRINT_ALL = (VSETKYM) %s :   %s
+
+
+#adminslots.txt
+[sk]
+DROPPED_RES = Odpojeny! Slot je rezervovany
+
+
+#adminvote.txt
+[sk]
+ADMIN_CANC_VOTE_1 = %s: zrusil hlasovanie
+ADMIN_CANC_VOTE_2 = %s %s: zrusil hlasovanie
+VOTING_CANC = Hlasovanie bolo zrusene
+NO_VOTE_CANC = Hlasovanie momentalne neprebieha alebo ho nie je mozne zrusit tymto prikazom
+RES_REF = Hlasovanie bolo neplatne
+RES_ACCEPTED = Hlasovanie bolo prijate
+VOTING_FAILED = Hlasovanie zlyhalo
+VOTING_RES_1 = %s (ano "%d") (nie "%d") (bolo potrebnych "%d")
+VOTING_RES_2 = %s (dostal "%d") (bolo potrebnych "%d")
+VOTING_SUCCESS = Hlasovanie bolo uspesne
+VOTING_RES_3 = %s (dostal "%d") (bolo potrebnych "%d"). Vysledok: %s
+THE_RESULT = Vysledok
+WANT_CONTINUE = Si si isty, ze chces pokracovat?
+VOTED_FOR = %s hlasovalo za
+VOTED_AGAINST = %s hlasovalo proti
+VOTED_FOR_OPT = %s hlasovalo za moznost #%d
+ALREADY_VOTING = Uz sa raz hlasovalo...
+VOTING_NOT_ALLOW = Hlasovanie momentalne nie je povolene
+GIVEN_NOT_VALID = Opakovanie %s neplatne
+MAP_IS = mapa je
+MAPS_ARE = mapy su
+CHOOSE_MAP = Vyber si mapu
+ADMIN_VOTE_MAP_1 = %s: hlasoval za mapu/y
+ADMIN_VOTE_MAP_2 = %s %s: hlasoval za mapu/y
+VOTING_STARTED = Hlasovanie spustene...
+VOTING_FORBIDDEN = Hlasovanie bolo zakazane
+ADMIN_VOTE_CUS_1 = %s: hlasoval inak
+ADMIN_VOTE_CUS_2 = %s %s: hlasoval inak
+VOTE = Hlasovanie
+ACTION_PERFORMED = Tato akcia nemoze byt prevedena na botovi "%s"
+ADMIN_VOTE_FOR_1 = %s: hlasoval %s za %s
+ADMIN_VOTE_FOR_2 = %s %s: hlasoval %s za %s
+
+
+#antiflood.txt
+[sk]
+STOP_FLOOD = Prestan floodovat!
+
+
+#cmdmenu.txt
+[sk]
+CMD_MENU = Menu s prikazmi
+CONF_MENU = Menu s nastaveniami
+SPE_MENU = Menu s hlaskami
+
+
+#common.txt
+[sk]
+BACK = Predosle
+EXIT = Zavriet
+MORE = Dalsie
+NONE = Nic
+ADMIN = ADMIN
+PLAYER = HRAC
+ERROR = chyba
+YES = Ano
+NO = Nie
+BAN = ban
+KICK = kick
+NO_ACC_COM = Nemas pristup k tomuto prikazu
+USAGE = Pouzitie
+MORE_CL_MATCHT = Danym kriteriam zodpoveda viacero klientov
+CL_NOT_FOUND = Klient s takymto menom alebo userid sa nenasiel
+CLIENT_IMM = Klient "%s" ma imunitu
+CANT_PERF_DEAD = Tuto akciu nemozno previest na mrtvom klientovi "%s"
+CANT_PERF_BOT = Tuto akciu nemozno previest na botovi "%s"
+ON = Zap
+OFF = Vyp
+
+
+#imessage.txt
+[sk]
+INF_REACH = Limit informacnych sprav prekroceny!
+
+
+#languages.txt
+[sk]
+LANG_NAME = Slovak
+LANG_NAME_NATIVE = Slovencina
+
+#mapchooser.txt
+[sk]
+CHO_FIN_EXT = Hlasovanie skoncene. Tato mapa bude predlzena o %.0f minut
+CHO_FIN_NEXT = Hlasovanie skoncene. Dalsia mapa bude %s
+CHOSE_EXT = %s hlasoval za predlzenie mapy
+X_CHOSE_X = %s hlasoval za %s
+CHOOSE_NEXTM = AMX Vyber si dalsiu mapu
+EXTED_MAP = Predlzit mapu %s
+TIME_CHOOSE = Nastal cas pre zmenu mapy...
+
+#mapsmenu.txt
+[sk]
+RESULT_REF = Vysledok bol zamietnuty
+RESULT_ACC = Vysledok bol prijaty
+VOTE_SUCCESS = Hlasovanie bolo uspesne. Mapa se bude menit na
+VOTE_FAILED = Hlasovanie zlyhalo
+THE_WINNER = Vitaz
+WANT_CONT = Ste si isty, ze chcete pokracovat?
+VOT_CANC = Hlasovanie bolo zrusene
+X_VOTED_FOR = %s hlasoval za moznost #%d
+VOTEMAP_MENU = Hlasovanie pre zmenu mapy
+START_VOT = Spustit hlasovanie
+SEL_MAPS = Vybrane mapy
+ALREADY_VOT = Hlasovanie uz prebehlo...
+NO_MAPS_MENU = V ponuke nie su ziadne mapy
+VOT_NOW_ALLOW = Hlasovanie momentalne nie je povolene
+WHICH_MAP = Aku mapu chces?
+CHANGE_MAP_TO = Zmena mapy na
+CANC_VOTE = Zrusit hlasovanie
+ADMIN_V_MAP_1 = ADMIN: zvolil mapu
+ADMIN_V_MAP_2 = ADMIN %s: zvolil mapu
+ADMIN_CHANGEL_1 = ADMIN: meni mapu na %s
+ADMIN_CHANGEL_2 = ADMIN %s: meni mapu na %s
+CHANGLE_MENU = Zmena mapy
+
+
+#menufront.txt
+[sk]
+KICK_PLAYER = Vyhodit hraca
+BAN_PLAYER = Zabanovat hraca
+SLAP_SLAY = Prefackat/Zabit hraca
+TEAM_PLAYER = Zmenit hracovi tim ^n
+CHANGEL = Zmena mapy
+VOTE_MAPS = Hlasovanie pre zmenu mapy ^n
+SPECH_STUFF = Menu s hlaskami
+CLIENT_COM = Klientske prikazy
+SERVER_COM = Serverove prikazy
+CVARS_SET = Nastavenia cvarov
+CONFIG = Konfiguracia
+LANG_SET = Nastavenie jazyka
+STATS_SET = Nastavenie statistik ^n
+PAUSE_PLUG = Pozastavit pluginy
+RES_WEAP = Obmedzit zbrane
+TELE_PLAYER = Teleportovat hraca
+
+
+#miscstats.txt
+[sk]
+WITH = s
+KNIFE_MSG_1 = %s nakrajal a serviruje %s
+KNIFE_MSG_2 = %s podrezal %s ako svinu
+KNIFE_MSG_3 = %s se priblizil zozadu a odrovnal %s
+KNIFE_MSG_4 = %s podrezal %s
+LAST_MSG_1 = Teraz vsetko zavisi na tebe!
+LAST_MSG_2 = Dufam ze mas lekarnicku.
+LAST_MSG_3 = Vsetci spoluhraci su mrtvi. Vela stastia!
+LAST_MSG_4 = Tak a si sam. Prijemnu zabavu!
+HE_MSG_1 = %s poslal maly darcek %s
+HE_MSG_2 = %s hodil maly darcek po %s
+HE_MSG_3 = %s skvele zabil granatom %s
+HE_MSG_4 = %s vyhodil do vzduchu %s
+SHE_MSG_1 = %s detonoval sam od seba
+SHE_MSG_2 = %s skusal specialne efekty s granatom
+SHE_MSG_3 = %s zjedol granat!
+SHE_MSG_4 = %s explodoval!
+HS_MSG_1 = $kn zabil $vn preciznym^nvystrelom do hlavy!
+HS_MSG_2 = $kn odstrelil $vn ovu hlavu
+HS_MSG_3 = $kn rozslahal $vn ovu hlavu^nako puding
+HS_MSG_4 = $kn oskalpoval $vn 
+HS_MSG_5 = $vn ova hlava je teraz^nakurat vsade naokolo
+HS_MSG_6 = $kn to vie vynimocne s $wn,^nako uz $vn zistil.
+HS_MSG_7 = $vn nechal hlavu prilis ^ndlho v $kn ovom zameriavaci...
+DOUBLE_KILL = Wau! %s trafil 2 muchy jednou ranou!
+PREPARE_FIGHT = Priprav sa na BOJ!^nKolo %d
+KILLED_ROW = Zabil si uz %d ludi po sebe
+DIED_ROUNDS = Super! Zomrel si %d kol/a po sebe...
+KILLED_CHICKEN = Niekto zabil sliepku!!!
+BLEW_RADIO = Niekto rozbil radio!!!
+REACHED_TARGET = Boze! %s je u ciela!
+PLANT_BOMB = %s uklada bombu!
+DEFUSING_BOMB = %s odistuje bombu...
+SET_UP_BOMB = %s ulozil bombu!!!
+DEFUSED_BOMB = %s odistil bombu!
+FAILED_DEFU = %s odistenie sa nepodarilo...
+PICKED_BOMB = %s zobral bombu...
+DROPPED_BOMB = %s prisel o bombu!!!
+CT = CT
+CTS = COUNTER-TERORISTI
+TERRORIST = TERORISTA
+TERRORISTS = TERORISTI
+REMAINING = %d %s zostavaju...
+KILLS = zabil
+HS = hs
+
+
+#multilingual.txt
+[sk]
+LANG_NOT_EXISTS = Vybrany jazyk neexistuje
+PERSO_LANG = Jazyk klienta
+LANG_MENU = Nastavenie jazyka
+SERVER_LANG = Jazyk na serveri
+SAVE_LANG = Ulozit jazyk
+SET_LANG_SERVER = Na serveri bol nastaveny jazyk na "%s"
+SET_LANG_USER = Tvoj jazyk bol nastaveny na "%s"
+TYPE_LANGMENU = Napis 'amx_langmenu' do konzoly pre zmenu jazyka cez menu
+LANG_MENU_DISABLED = Nastavenie jazyka nie je povolene.
+
+
+#nextmap.txt
+[sk]
+NEXT_MAP = Dalsia mapa:
+PLAYED_MAP = Aktualna mapa
+FRIEND_FIRE = Strelba na spoluhracov
+
+
+#pausecfg.txt
+[sk]
+PAUSE_COULDNT_FIND = Nemozno najst plugin zodpovedajuci "%s"
+PAUSE_PLUGIN_MATCH = Plugin zodpovedajuci "%s"
+PAUSE_CONF_CLEARED = Konfiguracny subor bol vymazany. Ak je to potrebne zmen mapu.
+PAUSE_ALR_CLEARED = Konfiguracia uz bola vymazana!
+PAUSE_CONF_SAVED = Konfiguracia bola uspesne ulozena
+PAUSE_SAVE_FAILED = Konfiguraciu sa NEPODARILO ulozit!!!
+LOCKED = ZAMKNUTE
+PAUSE_UNPAUSE = Pozastavit/Spustit pluginy
+CLEAR_STOPPED = Vymazat subor s pozastavenymi
+SAVE_STOPPED = Ulozit pozastavene pluginy
+PAUSED_PLUGIN = Pozastavenych pluginov: %d
+PAUSED_PLUGINS = Pozastavenych pluginov: %d
+UNPAUSED_PLUGIN = Znovu spustenych pluginov: %d
+UNPAUSED_PLUGINS = Znovu spustenych pluginov: %d
+CANT_MARK_MORE = Nemozno oznacit viac pluginov ako je nepozastavitelnych!
+PAUSE_LOADED = Pozastavit pluginy: Nacitane pluginy
+STOPPED = zastaveny
+VERSION = verzia
+FILE = subor
+PAUSE_ENTRIES = Polozky %d - %d z %d (%d bezi)
+PAUSE_USE_MORE = Napis 'amx_pausecfg list %d' pre dalsiu stranu
+PAUSE_USE_BEGIN = Napis 'amx_pausecfg list 1' pre navrat na zaciatok
+PAUSE_USAGE = Pouzitie:  amx_pausecfg <prikaz> [nazov]
+PAUSE_COMMANDS = Prikazy
+COM_PAUSE_OFF = ^toff - pozastavi vsetky pluginy ktore nie su na zozname
+COM_PAUSE_ON = ^ton - znovu spusti vsetky pluginy
+COM_PAUSE_STOP = ^tstop <file> - zastavi plugin
+COM_PAUSE_PAUSE = ^tpause <file> - pozastavi plugin
+COM_PAUSE_ENABLE = ^tenable <file> - povoli plugin
+COM_PAUSE_SAVE = ^tsave - ulozi zoznam zastavenych pluginov
+COM_PAUSE_CLEAR = ^tclear - vymaze zoznam zastavenych pluginov
+COM_PAUSE_LIST = ^tlist [id] - zoznamy pluginov
+COM_PAUSE_ADD = ^tadd <title> - oznaci plugin ako nepozastavitelny
+SAVE_PAUSED = Ulozit pozastavene
+COM_PAUSE_SAVE_PAUSED = ^tsave - ulozit zoznam pozastavenych pluginov
+COM_PAUSE_CLEAR_PAUSED = ^tclear - vymazat zoznam pozastavenych pluginov
+CANT_UNPAUSE_PLUGIN = Plugin "%s" je zastaveny, nie je mozne ho pozastavit.
+CLEAR_PAUSED = Vymazat subor s pozastavenymi
+
+
+#plmenu.txt
+[sk]
+ADMIN_BAN_1 = ADMIN: zabanoval %s
+ADMIN_BAN_2 = ADMIN %s: zabanoval %s
+BAN_MENU = Zabanovat hraca
+BAN_FOR_MIN = Zabanovat na %d minut
+BAN_PERM = Zabanovat permanentne
+SLAP_SLAY_MENU = Prefackat/Zabit hraca
+SLAP_WITH_DMG = Udret silou %d poskodenia
+SLAY = Zabit
+KICK_MENU = Vyhodit hraca
+ADMIN_TRANSF_1 = ADMIN: premiestnil %s k %s
+ADMIN_TRANSF_2 = ADMIN %s: premiestnil %s k %s
+TEAM_MENU = Zmenit hracovi tim
+TRANSF_TO = Presunut k %s
+CL_CMD_MENU = Klientske prikazy
+NO_CMDS = Ziadne prikazy k dispozicii
+
+
+#restmenu.txt
+[sk]
+EQ_WE_RES = Vybavenie a zbrane boli obmedzene
+EQ_WE_UNRES = Vybavenie a zbrane boli opat povolene
+HAVE_BEEN = boli
+HAS_BEEN = bol
+RESTRICTED = obmedzene/y
+UNRESTRICTED = povolene/y
+NO_EQ_WE = Nemozno najst takuto zbran alebo vybavenie
+WEAP_RES = Obmedzenie zbrani
+VALUE = hodnota
+REST_ENTRIES_OF = Polozky %i - %i z %i
+REST_USE_MORE = Napis 'amx_restrict list %i' pre dalsiu stranu
+REST_USE_BEGIN = Napis 'amx_restrict list 1' pre navrat na zaciatok
+REST_CONF_SAVED = Konfiguracia bola ulozena (subor "%s")
+REST_COULDNT_SAVE = Nemozno ulozit konfiguraciu (subor "%s")
+REST_CONF_LOADED = Konfiguracia bola nacitana (subor "%s")
+REST_COULDNT_LOAD = Nemozno nacitat konfiguraciu (subor "%s")
+COM_REST_USAGE = Pouzitie:  amx_restrict <prikaz> [hodnota]
+COM_REST_COMMANDS = Prikazy:
+COM_REST_ON = ^ton - nastavi obmedzenie na vsetko vybavenie
+COM_REST_OFF = ^toff - povoli vsetko vybavenie
+COM_REST_ONV = ^ton <hodnota> [...] - nastavi specificke obmedzenie
+COM_REST_OFFV = ^toff <hodnota> [...] - znova povoli specificke vybavenie alebo zbran
+COM_REST_LIST = ^tlist - zobrazi zoznam dostupneho vybavenia a zbrani
+COM_REST_SAVE = ^tsave - ulozi obmedzenie
+COM_REST_LOAD = ^tload [subor] - nacita obmedzenia [zo suboru]
+COM_REST_VALUES = Pouzitelne hodnoty k obmedzeniu su:^nammo, equip, pistol, shotgun, sub, rifle, machine
+COM_REST_TYPE = Napis 'amx_restrict list' pre viac specifikacii
+REST_WEAP = Obmedzenie zbrani
+SAVE_SET = Ulozit nastavenie
+CONF_SAV_SUC = Konfiguracia bola uspesne ulozena
+CONF_SAV_FAIL = Konfiguraciu sa nepodarilo ulozit!!!
+
+
+#scrollmsg.txt
+[sk]
+MIN_FREQ = Minimalna frekvencia tejto spravy je %d sekund
+MSG_FREQ = Frekvencia zobrazenia skrolovacej spravy: %d:%02d minut
+MSG_DISABLED = Skrolovacie spravy boli vypnute
+
+
+#stats_dod.txt
+[sk]
+WHOLEBODY = cele telo
+HEAD = hlava
+CHEST = trup
+STOMACH = zaludok
+LEFTARM = lava ruka
+RIGHTARM = prava ruka
+LEFTLEG = lava noha
+RIGHTLEG = prava noha
+MULTI_MSG = Multi-Kill! %s^nzabil %d ludi (%d do hlavy)
+ULTRA_MSG = Ultra-Kill!!! %s^zabil %d ludi (%d do hlavy)
+SPREE_MSG = %s MA ZABIJACKY ZACHVAT!!!^nzabil %d ludi (%d do hlavy)
+RAMPAGE_MSG = %s DOSTAL AMOK!!!^nzabil %d ludi (%d do hlavy)
+UNSTOPPABLE_MSG = %s JE NEZASTAVYTELNY!!!^nzabil %d ludi (%d do hlavy)
+MONSTER_MSG = %s JE MONSTRUM!^nzabil %d ludi (%d do hlavy)
+GODLIKE_MSG = %s JE BOH!!!!^nzabil %d ludi (%d do hlavy)
+MULTI_SMALL = %s: Multi-Kill!
+ULTRA_SMALL = %s: Ultra-Kill!!!
+SPREE_SMALL = %s MA ZABIJACKY ZACHVAT!!!
+RAMPAGE_SMALL = %s: AMOK!!!
+UNSTOPPABLE_SMALL = %s JE NEZASTAVYTELNY!!!
+MONSTER_SMALL = %s JE MONSTRUM!
+GODLIKE_SMALL = %s JE BOH!!!
+KNIFE_MSG_1 = %s nakrajal a serviruje %s
+KNIFE_MSG_2 = %s podrezal ako svinu %s
+KNIFE_MSG_3 = %s sa priplazil zozadu a odrovnal %s
+KNIFE_MSG_4 = %s podrezal %s
+HE_MSG_1 = %s poslal maly darcek %s
+HE_MSG_2 = %s hodil maly darcek %s
+HE_MSG_3 = %s skvele zabil granatom %s
+HE_MSG_4 = %s vyhodil do vzduchu %s
+SHE_MSG_1 = %s detonoval sam od seba
+SHE_MSG_2 = %s skusal specialne efekty s granatom
+SHE_MSG_3 = %s prehltol cely granat!
+SHE_MSG_4 = %s explodoval!
+HEAD_MSG_1 = $kn zabil $vn preciznym^nvystrelom do hlavy!
+HEAD_MSG_2 = $kn odstrelil $vnovu hlavu
+HEAD_MSG_3 = $kn rozslahal $vnovu hlavu^nako puding
+HEAD_MSG_4 = $kn oskalpoval $vn 
+HEAD_MSG_5 = $vnova hlava je teraz^nvsade naokolo
+HEAD_MSG_6 = $kn to vie vynimocne s $wn,^nako uz $vn zistil
+HEAD_MSG_7 = $vn's nechal hlavu priliz ^ndlho v $knov zameriavaci...
+DOUBLE_MSG1 = Wau! %s trafil 2 muchy jednou ranou !!!
+DOUBLE_MSG2 = Neskutocne! %s zabil troch naraz !!!
+DOUBLE_MSG3 = Ohromujuce! %s ich zotal %d naraz !!!
+MORTAR_MSG1 = %s dobre namieril svoj kanon a odstrelil %s
+MORTAR_MSG2 = %s zabil na dlhu vzdialenost %s
+KILL_INFO1 = %s ta zabil %s^nzo vzdialenosti %.2f metrov.^n
+KILL_INFO2 = %d ta trafil %dx ^na zobral %dhp.^n
+KILL_INFO3 = Zobral si mu %d hp %d zasahmy.^n
+KILL_INFO4 = Trafil ta do:^n%s^n
+STILL_HAS = %s stale ma %dhp
+NO_KILLER = Nie si zabijak...
+TOPX = Rebricek %d
+FFIRE_IS = Strelba na spoluhraca:
+ATTACKERS = Utocnici:
+VICTIMS = Obete:
+DMG = dmg
+HIT_S = zasah/ov
+YOU_HIT = Trafil si %s v:
+SERVER_STATS = Statistika servera
+SHOW_STATS = Zobrazit statistiku
+SHOW_RANK = Zobrazit rebricek
+TA_MSG = %s trafil spoluhraca
+TK_MSG = %s zabil spoluhraca !
+NADE_CAUGHT = Wau! %s chytil nepriatelsky granat!
+NADE_FAILEDTK = Oops.. %s ta zabil ked skusal hodit spet nepriatelsky granat..
+NADE_FAILED = %s neuspel pri pokuse odhodit nepriatelsky granat..
+NADE_MASTER = OMG! %s je granatovy majster !!!
+DISABLED_MSG = Server nema tuto volbu povolenu
+MOST_KILLS = Najviac zabitych
+KILL = zabitie
+KILLS = zabiti
+HEADSHOT = zasah do hlavy
+HEADSHOTS = zasahov do hlavy
+BEST_SCORE = Nejlepsie skore
+POINTS = bodov
+MOST_DAMAGE = Najdrsnejsi
+DAMAGE = poskodenie
+HIT = zasah
+HITS = zasahov
+M_KILLS = Zabiti:
+M_DEATHS = Smrti:
+M_SCORE = Skore:
+M_TKS = TKs:
+M_HITS = Zasahov:
+M_SHOTS = Striel:
+M_HS = HS:
+M_WEAPON = Zbran:
+M_DAMAGE = Poskodenie:
+M_NICK = Prezyvka:
+M_YOUR_RANK_IS = Tvoj rank je
+M_THEIR_RANK_IS = Jeho rank je
+M_OF = z
+
+
+#statscfg.txt
+[sk]
+NO_OPTION = Nemozno najst volbu s takouto premennou (nazov "%s")
+STATS_CONF_SAVED = Konfiguracia statistik ulozena
+STATS_CONF_FAILED = Konfiguraciu statistik sa NEPODARILO ULOZIT!!!
+STATS_CONF_LOADED = Konfiguracia statistik nacitana
+STATS_CONF_FAIL_LOAD = Konfiguraciu statistik sa NEPODARILO NENACITAT!!!
+STATS_CONF = Konfiguracia statistik
+STATS_ENTRIES_OF = Polozky %i - %i z %i
+STATS_USE_MORE = Napis 'amx_statscfg list %i' pre dalsiu stranu
+STATS_USE_BEGIN = Napis 'amx_statscfg list 1' pre navrat na zaciatok
+STATS_ENABLED = Statistiky povolene
+STATS_DISABLED = Statistiky zakazane
+CANT_ADD_STATS = Nemozno pridat statistiky do zoznamu, limit bol prekroceny!!!
+COM_STATS_USAGE = Pouzitie: amx_statscfg <prikaz> [parametre] ...
+COM_STATS_COM = Prikazy:
+COM_STATS_ON = ^ton <premenna> - povoli specificku volbu
+COM_STATS_OFF = ^toff <premenna> - zakaze specificku volbu
+COM_STATS_SAVE = ^tsave - ulozi konfiguraciu statistik
+COM_STATS_LOAD = ^tload - nacita konfiguraciu statistik
+COM_STATS_LIST = ^tlist [index] - Zoznam statistik
+COM_STATS_ADD = ^tadd <nazov> <premenna> - prida statistiku do zoznamu
+NO_STATS = Statistiky nie su^nnainstalovane na tomto serveri^n
+SAVE_CONF = Ulozit konfiguraciu
+ST_MULTI_KILL = Sprava pri Multi-zabiti
+ST_MULTI_KILL_SOUND = Zvuk pri Multi-zabiti
+ST_BOMB_PLANTING = Sprava pri plantovani
+ST_BOMB_DEFUSING = Sprava pri zneskodnovani
+ST_BOMB_PLANTED = Sprava pri aktivacii bomby
+ST_BOMB_DEF_SUCC = Sprava pri uspesnej deaktivacii
+ST_BOMB_DEF_FAIL = Sprava pri neusp. deaktivacii
+ST_BOMB_PICKUP = Sprava pri zodvihnutej bombe
+ST_BOMB_DROP = Sprava pri odhodenej bombe
+ST_BOMB_CD_VOICE = Hlasove odpocitavanie
+ST_BOMB_CD_DEF = Odpocitavanie bomby (defuser)
+ST_BOMB_SITE = Plantovisko v dosahu
+ST_ITALY_BONUS = Italy Bonus Kill
+ST_LAST_MAN = Posledny zijuci
+ST_KNIFE_KILL = Zabitie nozom
+ST_KNIFE_KILL_SOUND = Zvuk pri zabiti nozom
+ST_HE_KILL = Zabitie granatom
+ST_HE_SUICIDE = Samovrazda granatom
+ST_HS_KILL = Zabitie zasahom do hlavy (HS)
+ST_HS_KILL_SOUND = Zvuk pri zasahu do hlavy
+ST_ROUND_CNT = Round Counter
+ST_ROUND_CNT_SOUND = Zvuk pri Round Counter
+ST_KILL_STR = Killing Streak Rezim
+ST_KILL_STR_SOUND = Zvuk pri killing streaku
+ST_ENEMY_REM = Zostavajuci nepriatelia
+ST_DOUBLE_KILL = Dvojite zabitie
+ST_DOUBLE_KILL_SOUND = Zvuk pri dvojitom zabiti
+ST_PLAYER_NAME = Meno hraca pri namiereni
+ST_FIRST_BLOOD_SOUND = Zvuk pri prvej obeti
+ST_SHOW_KILLER_CHAT = Zobrazit zabijakove HP a AP
+ST_SHOW_ATTACKERS = Zobrazit utocnikov
+ST_SHOW_VICTIMS = Zobrazit obete
+ST_SHOW_KILLER = Zobrazit zabijaka
+ST_SHOW_TEAM_SCORE = Zobrazit skore v time
+ST_SHOW_TOTAL_STATS = Zobrazit celkove statistiky
+ST_SHOW_BEST_SCORE = Zobrazit najlepsie skore
+ST_SHOW_MOST_DISRUPTIVE = Najdrsnejsi hrac
+ST_SHOW_HUD_STATS_DEF = Predvolene HUD statistiky
+ST_SHOW_DIST_HS_HUD = Vzdialenost a HS v HUD spravach
+ST_STATS_PLAYER_MAP_END = Statistiky na konci mapy
+ST_STATS_TOP15_MAP_END = Top15 na konci mapy
+ST_SAY_HP = Prikaz /hp
+ST_SAY_STATSME = Prikaz /statsme
+ST_SAY_RANKSTATS = Prikaz /rankstats
+ST_SAY_ME = Prikaz /me
+ST_SAY_RANK = Prikaz /rank
+ST_SAY_REPORT = Prikaz /report
+ST_SAY_SCORE = Prikaz /score
+ST_SAY_TOP15 = Prikaz /top15
+ST_SAY_STATS = Prikaz /stats
+ST_SPEC_RANK = Rank info pocas sledovania
+
+
+#statsx.txt
+[sk]
+WHOLEBODY = cele telo
+HEAD = hlava
+CHEST = trup
+STOMACH = zaludok
+LEFTARM = lava ruka
+RIGHTARM = prava ruka
+LEFTLEG = lava noha
+RIGHTLEG = prava noha
+MODE_SET_TO = "amx_statsx_mode" nastaveny na "%s"
+ATTACKERS = Utocnici
+ACC = presnost
+HIT_S = zasah/ov
+DMG = poskodenie
+VICTIMS = Obete
+MOST_DMG = Nejdrsnejsi bol
+KILLED_YOU_DIST = %s ta zabil s %s^nzo vzdialenosti %.2f metra.^n
+DID_DMG_HITS = Zobral ti %d hp a trafil ta %d-krat.^n
+YOU_DID_DMG = Zobral si mu %d hp, %d zasahmi.
+EFF = efektivita
+BEST_SCORE = Naj. skore za kolo
+KILL_S = zabitia
+TOTAL = Celkovo
+SHOT_S = vystrel/ov
+HITS_YOU_IN = %s zasiahol
+KILLED_BY_WITH = Zabil ta %s s %s @ %0.0fm
+NO_HITS = ziadne zasahy
+YOU_NO_KILLER = Nie si zabijak...
+YOU_HIT = Trafil si %s %d-krat, poskodenie %d
+LAST_RES = Naposledy: %d zasah/ov, poskodenie %d
+KILLS = Zabitia
+DEATHS = Smrti
+HITS = zasah/ov
+SHOTS = vystrel/ov
+YOUR = Tvoja
+PLAYERS = Hraci
+RANK_IS = priecka je %d z %d
+DAMAGE = Poskodenie
+WEAPON = Zbran
+YOUR_RANK_IS = Tvoja priecka je %d z %d s %d zabitiami, %d zasahmy, %0.2f%% efektivitou a %0.2f%% presnostou.
+AMMO = naboje
+HEALTH = zdravie
+ARMOR = brnenie
+GAME_SCORE = Skore v hre
+STATS_ANNOUNCE = Mas %s statistickych upozorneni
+ENABLED = povolene
+DISABLED = zakazane
+SERVER_STATS = Statistiky servera
+X_RANK_IS = %sova priecka je %d z %d
+DISABLED_MSG = Server tuto volbu nepovolil
+
+
+#telemenu.txt
+[sk]
+ADMIN_TELEPORT_1 = ADMIN: teleportoval %s
+ADMIN_TELEPORT_2 = ADMIN %s: teleportoval %s
+TELE_MENU = Teleportovat hraca
+CUR_LOC = Aktualna pozicia
+SAVE_LOC = Ulozit poziciu
+
+
+#time.txt
+[sk]
+TIME_ELEMENT_SECOND = sekunda
+TIME_ELEMENT_SECONDS = sekund/y
+TIME_ELEMENT_MINUTE = minuta
+TIME_ELEMENT_MINUTES = minut/y
+TIME_ELEMENT_HOUR = hodina
+TIME_ELEMENT_HOURS = hodin/y
+TIME_ELEMENT_DAY = den
+TIME_ELEMENT_DAYS = dni
+TIME_ELEMENT_WEEK = tyzden
+TIME_ELEMENT_WEEKS = tyzdnov
+TIME_ELEMENT_PERMANENTLY = permantne
+TIME_ELEMENT_AND = a
+
+
+#timeleft.txt
+[sk]
+THE_TIME = Cas
+TIME_LEFT = Zostava este
+NO_T_LIMIT = Casovy limit nie je stanoveny
+MINUTE = minuta
+MINUTES = minut/y
+SECOND = sekunda
+SECONDS = sekund/y
